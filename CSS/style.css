@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header{
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+
+}
+
+header h1{
+    color: black;
+    font-family: 'Dancing Script', cursive;
+    margin-left: 25px;
+}
+
+.menu-d{
+    display: flex;
+    margin-right: 150px;
+}
+
+.menu-o{
+    padding-right: 50px;
+    display: flex;
+}
+
+.menu-o h4{
+    color: black;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 18px;
+}
+
+.icon-hour{
+    position: relative;
+    left: 10px;
+}
+
+.img-prin{
+    width: 100%;
+    padding: 50vh;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.img-sect p{
+    color: white;
+    font-size: 68px;
+    background-color: rgb(255, 255, 255, 0.4);
+    text-shadow: black 2px 5px;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+}
+
+.ref-links{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-decoration: none;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.ref-links a{
+    color: white;
+    display: block;
+    text-align: center;
+    background-color: black;
+    text-indent: none;
+}
+
+.info-sect{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.info-sect h4{
+    margin: 25px;
+    padding-right: 100px;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.img-barber-2{
+    max-width: 50%;
+    margin: 25px;
+    border-radius: 25px;
+}
